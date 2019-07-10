@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="106.002224">
+<testcase classname="Blog Comment Test" name="Test leave a comment on blog" time="19.021612">
+<system-out><![CDATA[Given user is already on blog form..........................................passed
+Then user enter name on blog form...........................................passed
+Then user enter email on blog form..........................................passed
+Then user enter comment on blog form........................................passed
+Then user click on Submit button on blog form...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Contact us form" name="Test Contacts us form" time="18.264098">
+<system-out><![CDATA[Given user is already on contact us form....................................passed
+Then user enter name........................................................passed
+Then user enter email.......................................................passed
+Then user enter mobile number...............................................passed
+Then user enter comment.....................................................passed
+Then user click on submit button............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test contact us to get started form" name="Test contact us to get started form" time="16.146954">
+<system-out><![CDATA[Given user is already on contact us to get started form.....................passed
+Then user enter name on gs form.............................................passed
+Then user enter email on gs form............................................passed
+Then user enter phone number on gs form.....................................passed
+Then user enter message on gs form..........................................passed
+Then user click on submit button on gs form.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Design Services form" name="Test Design Services form" time="14.757281">
+<system-out><![CDATA[Given user is already on design services page...............................passed
+Then user enter name on design services form................................passed
+Then user enter email on design services form...............................passed
+Then user enter project description on design services form.................passed
+Then user attach a file on design services form.............................passed
+Then user submit the design services form...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Questionnaire Form" name="Test Design Services form" time="18.509898">
+<system-out><![CDATA[Given user is already on questionnaire form page............................passed
+Then user enter name on questionnaire form..................................passed
+Then user enter email on questionnaire form.................................passed
+Then user enter phone on questionnaire form.................................passed
+Then user enter number of slides on questionnaire form......................passed
+Then user enter  Style Requirement on questionnaire form....................passed
+Then user click on submit on questionnaire form.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Research Services Form" name="Test Research Services Form" time="19.302381">
+<system-out><![CDATA[Given user is already on Submit Your Business Research Requirements form....passed
+Then user enter name on rs form.............................................passed
+Then user enter email on rs form............................................passed
+Then user enter mobile number on rs form....................................passed
+Then user enter comment on rs form..........................................passed
+Then user enter captcha on rs form..........................................passed
+Then user click on submit button on rs form.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

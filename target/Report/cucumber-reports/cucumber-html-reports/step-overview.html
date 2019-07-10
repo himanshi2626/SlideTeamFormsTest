@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>Project Name</td>
+                          <td>1</td>
+                        <td>10 Jul 2019, 12:25</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">BlogComment.user_click_on_Submit_button_on_blog_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="3086243600">3s 086ms</td>
+                <td class="duration" data-value="3086243600">3s 086ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">BlogComment.user_enter_comment_on_blog_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2609094700">2s 609ms</td>
+                <td class="duration" data-value="2609094700">2s 609ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">BlogComment.user_enter_email_on_blog_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2109429300">2s 109ms</td>
+                <td class="duration" data-value="2109429300">2s 109ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">BlogComment.user_enter_name_on_blog_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2140861700">2s 140ms</td>
+                <td class="duration" data-value="2140861700">2s 140ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">BlogComment.user_is_already_on_blog_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="9075983100">9s 075ms</td>
+                <td class="duration" data-value="9075983100">9s 075ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Contact_Us_To_Get_Started.user_click_on_submit_button_on_gs_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="3935474600">3s 935ms</td>
+                <td class="duration" data-value="3935474600">3s 935ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Contact_Us_To_Get_Started.user_enter_email_on_gs_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2090285200">2s 090ms</td>
+                <td class="duration" data-value="2090285200">2s 090ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Contact_Us_To_Get_Started.user_enter_message_on_gs_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2465225200">2s 465ms</td>
+                <td class="duration" data-value="2465225200">2s 465ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Contact_Us_To_Get_Started.user_enter_name_on_gs_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2117069500">2s 117ms</td>
+                <td class="duration" data-value="2117069500">2s 117ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Contact_Us_To_Get_Started.user_enter_phone_number_on_gs_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2065822500">2s 065ms</td>
+                <td class="duration" data-value="2065822500">2s 065ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Contact_Us_To_Get_Started.user_is_already_on_contact_us_to_get_started_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="3473077200">3s 473ms</td>
+                <td class="duration" data-value="3473077200">3s 473ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Contact_us_steps.user_click_on_submit_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="4108256600">4s 108ms</td>
+                <td class="duration" data-value="4108256600">4s 108ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Contact_us_steps.user_enter_comment()</td>
+                <td>1</td>
+                <td class="duration" data-value="2535407500">2s 535ms</td>
+                <td class="duration" data-value="2535407500">2s 535ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Contact_us_steps.user_enter_email()</td>
+                <td>1</td>
+                <td class="duration" data-value="2104703300">2s 104ms</td>
+                <td class="duration" data-value="2104703300">2s 104ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Contact_us_steps.user_enter_mobile_number()</td>
+                <td>1</td>
+                <td class="duration" data-value="2069010100">2s 069ms</td>
+                <td class="duration" data-value="2069010100">2s 069ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Contact_us_steps.user_enter_name()</td>
+                <td>1</td>
+                <td class="duration" data-value="2094392200">2s 094ms</td>
+                <td class="duration" data-value="2094392200">2s 094ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Contact_us_steps.user_is_already_on_contact_us_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="5352328300">5s 352ms</td>
+                <td class="duration" data-value="5352328300">5s 352ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DesignServicesFormSteps.user_attach_a_file_on_design_services_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="999689400">999ms</td>
+                <td class="duration" data-value="999689400">999ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DesignServicesFormSteps.user_enter_email_on_design_services_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2092607200">2s 092ms</td>
+                <td class="duration" data-value="2092607200">2s 092ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DesignServicesFormSteps.user_enter_name_on_design_services_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2105073500">2s 105ms</td>
+                <td class="duration" data-value="2105073500">2s 105ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DesignServicesFormSteps.user_enter_project_description_on_design_services_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2568339400">2s 568ms</td>
+                <td class="duration" data-value="2568339400">2s 568ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DesignServicesFormSteps.user_is_already_on_design_services_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="3542058000">3s 542ms</td>
+                <td class="duration" data-value="3542058000">3s 542ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">DesignServicesFormSteps.user_submit_the_design_services_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="3449513400">3s 449ms</td>
+                <td class="duration" data-value="3449513400">3s 449ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Questionnaire.user_click_on_submit_on_questionnaire_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="4271174300">4s 271ms</td>
+                <td class="duration" data-value="4271174300">4s 271ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Questionnaire.user_enter_Style_Requirement_on_questionnaire_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2515159900">2s 515ms</td>
+                <td class="duration" data-value="2515159900">2s 515ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Questionnaire.user_enter_email_on_questionnaire_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2134905600">2s 134ms</td>
+                <td class="duration" data-value="2134905600">2s 134ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Questionnaire.user_enter_name_on_questionnaire_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2097245000">2s 097ms</td>
+                <td class="duration" data-value="2097245000">2s 097ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Questionnaire.user_enter_number_of_slides_on_questionnaire_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2039721500">2s 039ms</td>
+                <td class="duration" data-value="2039721500">2s 039ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Questionnaire.user_enter_phone_on_questionnaire_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2064879000">2s 064ms</td>
+                <td class="duration" data-value="2064879000">2s 064ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Questionnaire.user_is_already_on_questionnaire_form_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="3386812500">3s 386ms</td>
+                <td class="duration" data-value="3386812500">3s 386ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ResearchServicesSteps.user_click_on_submit_button_on_rs_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="3803963700">3s 803ms</td>
+                <td class="duration" data-value="3803963700">3s 803ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ResearchServicesSteps.user_enter_captcha_on_rs_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2057568200">2s 057ms</td>
+                <td class="duration" data-value="2057568200">2s 057ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ResearchServicesSteps.user_enter_comment_on_rs_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2487474500">2s 487ms</td>
+                <td class="duration" data-value="2487474500">2s 487ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ResearchServicesSteps.user_enter_email_on_rs_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2092651800">2s 092ms</td>
+                <td class="duration" data-value="2092651800">2s 092ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ResearchServicesSteps.user_enter_mobile_number_on_rs_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2061727800">2s 061ms</td>
+                <td class="duration" data-value="2061727800">2s 061ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ResearchServicesSteps.user_enter_name_on_rs_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="2122979400">2s 122ms</td>
+                <td class="duration" data-value="2122979400">2s 122ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ResearchServicesSteps.user_is_already_on_Submit_Your_Business_Research_Requirements_form()</td>
+                <td>1</td>
+                <td class="duration" data-value="4676015600">4s 676ms</td>
+                <td class="duration" data-value="4676015600">4s 676ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>37</td>
+              <td>37</td>
+              <td class="duration">1m 46s 002ms</td>
+              <td class="duration">2s 864ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
