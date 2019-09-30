@@ -6,6 +6,7 @@ Then user enter name
 Then user enter email
 Then user enter mobile number
 Then user enter comment
+Then user enter captcha comment
 Then user click on submit button
 
 

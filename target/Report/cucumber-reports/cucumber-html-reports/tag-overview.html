@@ -49,32 +49,32 @@ $(document).ready(function() {
   $(document).ready(function() {
 
     var chartData = {
-        labels: ["@contact_us_form"],
+        labels: ["@blog_comment_form","@contact_us_form"],
         datasets: [
             {
                 label: 'Passed',
                 backgroundColor: "#92DD96",
-                data: [100.00]
+                data: [100.00, 100.00]
             },
             {
                 label: 'Failed',
                 backgroundColor: "#F2928C",
-                data: [0.00]
+                data: [0.00, 0.00]
             },
             {
                 label: 'Skipped',
                 backgroundColor: "#8AF",
-                data: [0.00]
+                data: [0.00, 0.00]
             },
             {
                 label: 'Pending',
                 backgroundColor: "#F5F28F",
-                data: [0.00]
+                data: [0.00, 0.00]
             },
             {
                 label: 'Undefined',
                 backgroundColor: "#F5B975",
-                data: [0.00]
+                data: [0.00, 0.00]
             }
         ]
     };
@@ -135,7 +135,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>Project Name</td>
                           <td>1</td>
-                        <td>30 Sep 2019, 09:53</td>
+                        <td>30 Sep 2019, 14:39</td>
           </tr>
         </tbody>
       </table>
@@ -192,7 +192,7 @@ $(document).ready(function() {
 
   <tbody>
           <tr>
-        <td class="tagname"><a href="contact_us_form.html">@contact_us_form</a></td>
+        <td class="tagname"><a href="blog_comment_form.html">@blog_comment_form</a></td>
         
         <td  class="passed"    >1</td>
         <td >0</td>
@@ -203,24 +203,39 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">6</td>
-        <td class="duration" data-value="25751541400">25s 751ms</td>
+        <td class="duration" data-value="36036046200">36s 036ms</td>
+        <td class="passed">Passed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="contact_us_form.html">@contact_us_form</a></td>
+        
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+        <td      class="passed"    >7</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">7</td>
+        <td class="duration" data-value="24471486700">24s 471ms</td>
         <td class="passed">Passed</td>
       </tr>
       </tbody>
 
   <tfoot class="total">
     <tr>
-      <td>1</td>
-            <td>1</td>
+      <td>2</td>
+            <td>2</td>
       <td>0</td>
-      <td>1</td>
-      <td>6</td>
-      <td>0</td>
-      <td>0</td>
+      <td>2</td>
+      <td>13</td>
       <td>0</td>
       <td>0</td>
-      <td>6</td>
-      <td class="duration">25s 751ms</td>
+      <td>0</td>
+      <td>0</td>
+      <td>13</td>
+      <td class="duration">1m 507ms</td>
       <td></td>
     </tr>
     <tr>

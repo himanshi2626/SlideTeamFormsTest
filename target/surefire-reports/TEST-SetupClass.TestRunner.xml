@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="43" failures="0" name="SetupClass.TestRunner" time="0.007" errors="0" skipped="0">
+<testsuite tests="45" failures="0" name="SetupClass.TestRunner" time="0.007" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_211\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\slide53\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7463336267663485591.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\slide53\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7292782969538730031.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files\Git\cmd;C:\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_211\bin;;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\slide53\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\slide53\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -65,13 +65,15 @@
   <testcase classname="Scenario: Test leave a comment on blog" name="Then user enter name on blog form" time="0"/>
   <testcase classname="Scenario: Test leave a comment on blog" name="Then user enter email on blog form" time="0"/>
   <testcase classname="Scenario: Test leave a comment on blog" name="Then user enter comment on blog form" time="0"/>
+  <testcase classname="Scenario: Test leave a comment on blog" name="Then user enter captcha on blog form" time="0"/>
   <testcase classname="Scenario: Test leave a comment on blog" name="Then user click on Submit button on blog form" time="0"/>
-  <testcase classname="Scenario: Test leave a comment on blog" name="Scenario: Test leave a comment on blog" time="0.002"/>
+  <testcase classname="Scenario: Test leave a comment on blog" name="Scenario: Test leave a comment on blog" time="0.003"/>
   <testcase classname="Scenario: Test Contacts us form" name="Given user is already on contact us form" time="0"/>
   <testcase classname="Scenario: Test Contacts us form" name="Then user enter name" time="0"/>
   <testcase classname="Scenario: Test Contacts us form" name="Then user enter email" time="0"/>
   <testcase classname="Scenario: Test Contacts us form" name="Then user enter mobile number" time="0"/>
   <testcase classname="Scenario: Test Contacts us form" name="Then user enter comment" time="0"/>
+  <testcase classname="Scenario: Test Contacts us form" name="Then user enter captcha comment" time="0"/>
   <testcase classname="Scenario: Test Contacts us form" name="Then user click on submit button" time="0"/>
   <testcase classname="Scenario: Test Contacts us form" name="Scenario: Test Contacts us form" time="0.001"/>
   <testcase classname="Scenario: Test contact us to get started form" name="Given user is already on contact us to get started form" time="0"/>
@@ -87,7 +89,7 @@
   <testcase classname="Scenario: Test Design Services form" name="Then user enter project description on design services form" time="0"/>
   <testcase classname="Scenario: Test Design Services form" name="Then user attach a file on design services form" time="0"/>
   <testcase classname="Scenario: Test Design Services form" name="Then user submit the design services form" time="0"/>
-  <testcase classname="Scenario: Test Design Services form" name="Scenario: Test Design Services form" time="0.001"/>
+  <testcase classname="Scenario: Test Design Services form" name="Scenario: Test Design Services form" time="0"/>
   <testcase classname="Scenario: Test Design Services form" name="Given user is already on questionnaire form page" time="0"/>
   <testcase classname="Scenario: Test Design Services form" name="Then user enter name on questionnaire form" time="0"/>
   <testcase classname="Scenario: Test Design Services form" name="Then user enter email on questionnaire form" time="0"/>

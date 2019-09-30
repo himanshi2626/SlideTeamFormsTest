@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="122.516586">
-<testcase classname="Blog Comment Test" name="Test leave a comment on blog" time="24.171142">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="145.740212">
+<testcase classname="Blog Comment Test" name="Test leave a comment on blog" time="36.036046">
 <system-out><![CDATA[Given user is already on blog form..........................................passed
 Then user enter name on blog form...........................................passed
 Then user enter email on blog form..........................................passed
 Then user enter comment on blog form........................................passed
+Then user enter captcha on blog form........................................passed
 Then user click on Submit button on blog form...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test Contact us form" name="Test Contacts us form" time="25.751541">
+<testcase classname="Test Contact us form" name="Test Contacts us form" time="24.471487">
 <system-out><![CDATA[Given user is already on contact us form....................................passed
 Then user enter name........................................................passed
 Then user enter email.......................................................passed
 Then user enter mobile number...............................................passed
 Then user enter comment.....................................................passed
+Then user enter captcha comment.............................................passed
 Then user click on submit button............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test contact us to get started form" name="Test contact us to get started form" time="17.556652">
+<testcase classname="Test contact us to get started form" name="Test contact us to get started form" time="16.163284">
 <system-out><![CDATA[Given user is already on contact us to get started form.....................passed
 Then user enter name on gs form.............................................passed
 Then user enter email on gs form............................................passed
@@ -26,7 +28,7 @@ Then user enter message on gs form..........................................pass
 Then user click on submit button on gs form.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test Design Services form" name="Test Design Services form" time="16.520932">
+<testcase classname="Test Design Services form" name="Test Design Services form" time="20.242031">
 <system-out><![CDATA[Given user is already on design services page...............................passed
 Then user enter name on design services form................................passed
 Then user enter email on design services form...............................passed
@@ -35,7 +37,7 @@ Then user attach a file on design services form.............................pass
 Then user submit the design services form...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test Questionnaire Form" name="Test Design Services form" time="18.485828">
+<testcase classname="Test Questionnaire Form" name="Test Design Services form" time="17.407085">
 <system-out><![CDATA[Given user is already on questionnaire form page............................passed
 Then user enter name on questionnaire form..................................passed
 Then user enter email on questionnaire form.................................passed
@@ -45,7 +47,7 @@ Then user enter  Style Requirement on questionnaire form....................pass
 Then user click on submit on questionnaire form.............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test Research Services Form" name="Test Research Services Form" time="20.030491">
+<testcase classname="Test Research Services Form" name="Test Research Services Form" time="31.420279">
 <system-out><![CDATA[Given user is already on Submit Your Business Research Requirements form....passed
 Then user enter name on rs form.............................................passed
 Then user enter email on rs form............................................passed

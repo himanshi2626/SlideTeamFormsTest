@@ -60,13 +60,18 @@ public class Contact_us_steps extends Setup {
 		driver.findElement(By.id("comment")).sendKeys("This is a text message for QA purposes sent by an automated program. Please ignore."+ "\n"+""+""+
 								"Page URL is:-> https://www.slideteam.net/contacts"+"\n"+""+""+ 
 								"Current Time is:->"+message_write_time);		
-		Thread.sleep(3000);
+		Thread.sleep(2000);
+	}
+
+	@Then("^user enter captcha comment$")
+	public void user_enter_captcha_comment() throws Throwable {
+Thread.sleep(3000);
 		
 		
 		driver.findElement(By.xpath("//input[@id='captcha_contact_us']")).sendKeys("12345");
 	    Thread.sleep(1000);
 	}
-
+	
 	@Then("^user click on submit button$")
 	public void user_click_on_submit_button()throws Throwable  {
 		Thread.sleep(1000);

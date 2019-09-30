@@ -8,6 +8,9 @@ import java.sql.Driver;
 import java.text.SimpleDateFormat;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import SetupClass.Setup;
 import cucumber.api.java.en.Given;
@@ -15,13 +18,18 @@ import cucumber.api.java.en.Then;
 
 
 public class BlogComment extends Setup {
+	
+	WebDriverWait wait = new WebDriverWait(driver,50);
+
 
 	
 	@Given("^user is already on blog form$")
 	public void user_is_already_on_blog_form() throws Throwable {
-		Thread.sleep(1000);
-		driver.get("https://www.slideteam.net/blog/using-these-smart-goals-can-increase-your-impact-as-a-marketer/");
-		Thread.sleep(1000);
+		Thread.sleep(2000);
+		driver.get("https://www.slideteam.net/blog/using-images-in-presentations-11-dos-and-donts/");
+		Thread.sleep(3000);
+		   driver.manage().deleteAllCookies();
+		   Thread.sleep(2000);
 	}
 
 	@Then("^user enter name on blog form$") 
@@ -34,7 +42,7 @@ public class BlogComment extends Setup {
 	@Then("^user enter email on blog form$")
 	public void user_enter_email_on_blog_form() throws Throwable{
 		Thread.sleep(1000);
-		driver.findElement(By.id("email")).sendKeys("slidetech.qa@gmail.com");
+		driver.findElement(By.id("email")).sendKeys("himanshi.sharma@slidetech.in");
 		Thread.sleep(1000);
 	}
 	
@@ -50,23 +58,26 @@ public class BlogComment extends Setup {
 								"Current Time is:->"+message_write_time);		
 		Thread.sleep(1000);
 		
-		Thread.sleep(1000);
-		driver.findElement(By.id("captcha_blog_captcha_form")).sendKeys("12345");
-		Thread.sleep(1000);
+	}
+	
+	@Then("^user enter captcha on blog form$")
+	public void user_enter_captcha_on_blog_form() throws Throwable {
+		
+		WebElement blog_captcha = wait.until(ExpectedConditions.elementToBeClickable(By.id("captcha_blog_captcha_form")));
+	    Thread.sleep(2000);
+	    blog_captcha.sendKeys("12345");
+	    Thread.sleep(3000);
+
+	    
+	    
 	}
 
 	@Then("^user click on Submit button on blog form$")
 	public void user_click_on_Submit_button_on_blog_form()throws Throwable {
-		Thread.sleep(1000);
-		driver.findElement(By.id("post-the-comment")).submit();
-		Thread.sleep(1000);
-		System.out.print("form is submitted at:->> ");
-	    //System.out.println(System.currentTimeMillis()/1000);
-		SimpleDateFormat formatter= new SimpleDateFormat("dd-MM-yyyy 'at' HH:mm:ss z"); 
-	    Date date = new Date(System.currentTimeMillis());  
-	    Button_Click_Time=formatter.format(date);
-	    System.out.println(Button_Click_Time);  
-	    Thread.sleep(1000);
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//span[contains(.,'Leave a comment')]")).click();;
+		Thread.sleep(3000);
+		
 		
 	}
 	
