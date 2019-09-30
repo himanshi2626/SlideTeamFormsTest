@@ -5,13 +5,13 @@
       {
         "name": "user enter email",
         "aggregatedDurations": {
-          "average": 2.1047033,
-          "median": 2.1047033
+          "average": 2.1085113,
+          "median": 2.1085113
         },
         "durations": [
           {
-            "duration": 2.1047033,
-            "location": "src/test/java/Features/ContactUs.feature:5"
+            "duration": 2.1085113,
+            "location": "src/test/java/Features/ContactUs.feature:6"
           }
         ]
       }
@@ -23,12 +23,12 @@
       {
         "name": "user is already on design services page",
         "aggregatedDurations": {
-          "average": 3.542058,
-          "median": 3.542058
+          "average": 4.2463192,
+          "median": 4.2463192
         },
         "durations": [
           {
-            "duration": 3.542058,
+            "duration": 4.2463192,
             "location": "src/test/java/Features/DesignServicesForm.feature:3"
           }
         ]
@@ -41,12 +41,12 @@
       {
         "name": "user enter name on rs form",
         "aggregatedDurations": {
-          "average": 2.1229794,
-          "median": 2.1229794
+          "average": 2.1183903,
+          "median": 2.1183903
         },
         "durations": [
           {
-            "duration": 2.1229794,
+            "duration": 2.1183903,
             "location": "src/test/java/Features/ResearchServices.feature:5"
           }
         ]
@@ -59,12 +59,12 @@
       {
         "name": "user click on submit button on rs form",
         "aggregatedDurations": {
-          "average": 3.8039637,
-          "median": 3.8039637
+          "average": 4.0683006,
+          "median": 4.0683006
         },
         "durations": [
           {
-            "duration": 3.8039637,
+            "duration": 4.0683006,
             "location": "src/test/java/Features/ResearchServices.feature:10"
           }
         ]
@@ -77,12 +77,12 @@
       {
         "name": "user enter email on blog form",
         "aggregatedDurations": {
-          "average": 2.1094293,
-          "median": 2.1094293
+          "average": 2.1418413,
+          "median": 2.1418413
         },
         "durations": [
           {
-            "duration": 2.1094293,
+            "duration": 2.1418413,
             "location": "src/test/java/Features/BlogComment.feature:5"
           }
         ]
@@ -95,12 +95,12 @@
       {
         "name": "user is already on blog form",
         "aggregatedDurations": {
-          "average": 9.0759831,
-          "median": 9.0759831
+          "average": 12.0546321,
+          "median": 12.0546321
         },
         "durations": [
           {
-            "duration": 9.0759831,
+            "duration": 12.0546321,
             "location": "src/test/java/Features/BlogComment.feature:3"
           }
         ]
@@ -113,12 +113,12 @@
       {
         "name": "user enter message on gs form",
         "aggregatedDurations": {
-          "average": 2.4652252,
-          "median": 2.4652252
+          "average": 2.4855988,
+          "median": 2.4855988
         },
         "durations": [
           {
-            "duration": 2.4652252,
+            "duration": 2.4855988,
             "location": "src/test/java/Features/ContactUsToGetStarted.feature:7"
           }
         ]
@@ -131,13 +131,13 @@
       {
         "name": "user enter mobile number",
         "aggregatedDurations": {
-          "average": 2.0690101,
-          "median": 2.0690101
+          "average": 2.0816738,
+          "median": 2.0816738
         },
         "durations": [
           {
-            "duration": 2.0690101,
-            "location": "src/test/java/Features/ContactUs.feature:6"
+            "duration": 2.0816738,
+            "location": "src/test/java/Features/ContactUs.feature:7"
           }
         ]
       }
@@ -149,12 +149,12 @@
       {
         "name": "user is already on contact us to get started form",
         "aggregatedDurations": {
-          "average": 3.4730772,
-          "median": 3.4730772
+          "average": 4.2652117,
+          "median": 4.2652117
         },
         "durations": [
           {
-            "duration": 3.4730772,
+            "duration": 4.2652117,
             "location": "src/test/java/Features/ContactUsToGetStarted.feature:3"
           }
         ]
@@ -167,12 +167,12 @@
       {
         "name": "user enter phone number on gs form",
         "aggregatedDurations": {
-          "average": 2.0658225,
-          "median": 2.0658225
+          "average": 2.0660485,
+          "median": 2.0660485
         },
         "durations": [
           {
-            "duration": 2.0658225,
+            "duration": 2.0660485,
             "location": "src/test/java/Features/ContactUsToGetStarted.feature:6"
           }
         ]
@@ -185,12 +185,12 @@
       {
         "name": "user enter comment on blog form",
         "aggregatedDurations": {
-          "average": 2.6090947,
-          "median": 2.6090947
+          "average": 4.7762738,
+          "median": 4.7762738
         },
         "durations": [
           {
-            "duration": 2.6090947,
+            "duration": 4.7762738,
             "location": "src/test/java/Features/BlogComment.feature:6"
           }
         ]
@@ -203,13 +203,13 @@
       {
         "name": "user enter name",
         "aggregatedDurations": {
-          "average": 2.0943922,
-          "median": 2.0943922
+          "average": 2.105821,
+          "median": 2.105821
         },
         "durations": [
           {
-            "duration": 2.0943922,
-            "location": "src/test/java/Features/ContactUs.feature:4"
+            "duration": 2.105821,
+            "location": "src/test/java/Features/ContactUs.feature:5"
           }
         ]
       }
@@ -221,12 +221,12 @@
       {
         "name": "user enter email on design services form",
         "aggregatedDurations": {
-          "average": 2.0926072,
-          "median": 2.0926072
+          "average": 2.1071913,
+          "median": 2.1071913
         },
         "durations": [
           {
-            "duration": 2.0926072,
+            "duration": 2.1071913,
             "location": "src/test/java/Features/DesignServicesForm.feature:5"
           }
         ]
@@ -239,13 +239,13 @@
       {
         "name": "user click on submit button",
         "aggregatedDurations": {
-          "average": 4.1082566,
-          "median": 4.1082566
+          "average": 4.0672054,
+          "median": 4.0672054
         },
         "durations": [
           {
-            "duration": 4.1082566,
-            "location": "src/test/java/Features/ContactUs.feature:8"
+            "duration": 4.0672054,
+            "location": "src/test/java/Features/ContactUs.feature:9"
           }
         ]
       }
@@ -257,12 +257,12 @@
       {
         "name": "user enter mobile number on rs form",
         "aggregatedDurations": {
-          "average": 2.0617278,
-          "median": 2.0617278
+          "average": 2.0659667,
+          "median": 2.0659667
         },
         "durations": [
           {
-            "duration": 2.0617278,
+            "duration": 2.0659667,
             "location": "src/test/java/Features/ResearchServices.feature:7"
           }
         ]
@@ -275,12 +275,12 @@
       {
         "name": "user enter number of slides on questionnaire form",
         "aggregatedDurations": {
-          "average": 2.0397215,
-          "median": 2.0397215
+          "average": 2.0467138,
+          "median": 2.0467138
         },
         "durations": [
           {
-            "duration": 2.0397215,
+            "duration": 2.0467138,
             "location": "src/test/java/Features/Questionnaire.feature:8"
           }
         ]
@@ -293,12 +293,12 @@
       {
         "name": "user submit the design services form",
         "aggregatedDurations": {
-          "average": 3.4495134,
-          "median": 3.4495134
+          "average": 4.3243445,
+          "median": 4.3243445
         },
         "durations": [
           {
-            "duration": 3.4495134,
+            "duration": 4.3243445,
             "location": "src/test/java/Features/DesignServicesForm.feature:8"
           }
         ]
@@ -311,12 +311,12 @@
       {
         "name": "user enter comment on rs form",
         "aggregatedDurations": {
-          "average": 2.4874745,
-          "median": 2.4874745
+          "average": 2.5313449,
+          "median": 2.5313449
         },
         "durations": [
           {
-            "duration": 2.4874745,
+            "duration": 2.5313449,
             "location": "src/test/java/Features/ResearchServices.feature:8"
           }
         ]
@@ -329,12 +329,12 @@
       {
         "name": "user enter name on design services form",
         "aggregatedDurations": {
-          "average": 2.1050735,
-          "median": 2.1050735
+          "average": 2.1179775,
+          "median": 2.1179775
         },
         "durations": [
           {
-            "duration": 2.1050735,
+            "duration": 2.1179775,
             "location": "src/test/java/Features/DesignServicesForm.feature:4"
           }
         ]
@@ -347,12 +347,12 @@
       {
         "name": "user attach a file on design services form",
         "aggregatedDurations": {
-          "average": 0.9996894,
-          "median": 0.9996894
+          "average": 1.0000783,
+          "median": 1.0000783
         },
         "durations": [
           {
-            "duration": 0.9996894,
+            "duration": 1.0000783,
             "location": "src/test/java/Features/DesignServicesForm.feature:7"
           }
         ]
@@ -365,13 +365,13 @@
       {
         "name": "user is already on contact us form",
         "aggregatedDurations": {
-          "average": 5.3523283,
-          "median": 5.3523283
+          "average": 9.8532115,
+          "median": 9.8532115
         },
         "durations": [
           {
-            "duration": 5.3523283,
-            "location": "src/test/java/Features/ContactUs.feature:3"
+            "duration": 9.8532115,
+            "location": "src/test/java/Features/ContactUs.feature:4"
           }
         ]
       }
@@ -383,13 +383,13 @@
       {
         "name": "user enter comment",
         "aggregatedDurations": {
-          "average": 2.5354075,
-          "median": 2.5354075
+          "average": 5.5351184,
+          "median": 5.5351184
         },
         "durations": [
           {
-            "duration": 2.5354075,
-            "location": "src/test/java/Features/ContactUs.feature:7"
+            "duration": 5.5351184,
+            "location": "src/test/java/Features/ContactUs.feature:8"
           }
         ]
       }
@@ -401,12 +401,12 @@
       {
         "name": "user enter phone on questionnaire form",
         "aggregatedDurations": {
-          "average": 2.064879,
-          "median": 2.064879
+          "average": 2.0753312,
+          "median": 2.0753312
         },
         "durations": [
           {
-            "duration": 2.064879,
+            "duration": 2.0753312,
             "location": "src/test/java/Features/Questionnaire.feature:7"
           }
         ]
@@ -419,12 +419,12 @@
       {
         "name": "user enter captcha on rs form",
         "aggregatedDurations": {
-          "average": 2.0575682,
-          "median": 2.0575682
+          "average": 2.056223,
+          "median": 2.056223
         },
         "durations": [
           {
-            "duration": 2.0575682,
+            "duration": 2.056223,
             "location": "src/test/java/Features/ResearchServices.feature:9"
           }
         ]
@@ -437,12 +437,12 @@
       {
         "name": "user enter name on questionnaire form",
         "aggregatedDurations": {
-          "average": 2.097245,
-          "median": 2.097245
+          "average": 2.1159251,
+          "median": 2.1159251
         },
         "durations": [
           {
-            "duration": 2.097245,
+            "duration": 2.1159251,
             "location": "src/test/java/Features/Questionnaire.feature:5"
           }
         ]
@@ -455,12 +455,12 @@
       {
         "name": "user click on submit button on gs form",
         "aggregatedDurations": {
-          "average": 3.9354746,
-          "median": 3.9354746
+          "average": 4.5257709,
+          "median": 4.5257709
         },
         "durations": [
           {
-            "duration": 3.9354746,
+            "duration": 4.5257709,
             "location": "src/test/java/Features/ContactUsToGetStarted.feature:8"
           }
         ]
@@ -473,12 +473,12 @@
       {
         "name": "user is already on Submit Your Business Research Requirements form",
         "aggregatedDurations": {
-          "average": 4.6760156,
-          "median": 4.6760156
+          "average": 5.0943515,
+          "median": 5.0943515
         },
         "durations": [
           {
-            "duration": 4.6760156,
+            "duration": 5.0943515,
             "location": "src/test/java/Features/ResearchServices.feature:4"
           }
         ]
@@ -491,12 +491,12 @@
       {
         "name": "user enter name on gs form",
         "aggregatedDurations": {
-          "average": 2.1170695,
-          "median": 2.1170695
+          "average": 2.1114969,
+          "median": 2.1114969
         },
         "durations": [
           {
-            "duration": 2.1170695,
+            "duration": 2.1114969,
             "location": "src/test/java/Features/ContactUsToGetStarted.feature:4"
           }
         ]
@@ -509,12 +509,12 @@
       {
         "name": "user click on Submit button on blog form",
         "aggregatedDurations": {
-          "average": 3.0862436,
-          "median": 3.0862436
+          "average": 3.0392315,
+          "median": 3.0392315
         },
         "durations": [
           {
-            "duration": 3.0862436,
+            "duration": 3.0392315,
             "location": "src/test/java/Features/BlogComment.feature:7"
           }
         ]
@@ -527,12 +527,12 @@
       {
         "name": "user enter email on questionnaire form",
         "aggregatedDurations": {
-          "average": 2.1349056,
-          "median": 2.1349056
+          "average": 2.1125248,
+          "median": 2.1125248
         },
         "durations": [
           {
-            "duration": 2.1349056,
+            "duration": 2.1125248,
             "location": "src/test/java/Features/Questionnaire.feature:6"
           }
         ]
@@ -545,12 +545,12 @@
       {
         "name": "user enter project description on design services form",
         "aggregatedDurations": {
-          "average": 2.5683394,
-          "median": 2.5683394
+          "average": 2.7250213,
+          "median": 2.7250213
         },
         "durations": [
           {
-            "duration": 2.5683394,
+            "duration": 2.7250213,
             "location": "src/test/java/Features/DesignServicesForm.feature:6"
           }
         ]
@@ -563,12 +563,12 @@
       {
         "name": "user is already on questionnaire form page",
         "aggregatedDurations": {
-          "average": 3.3868125,
-          "median": 3.3868125
+          "average": 3.3794109,
+          "median": 3.3794109
         },
         "durations": [
           {
-            "duration": 3.3868125,
+            "duration": 3.3794109,
             "location": "src/test/java/Features/Questionnaire.feature:4"
           }
         ]
@@ -581,12 +581,12 @@
       {
         "name": "user click on submit on questionnaire form",
         "aggregatedDurations": {
-          "average": 4.2711743,
-          "median": 4.2711743
+          "average": 4.233391,
+          "median": 4.233391
         },
         "durations": [
           {
-            "duration": 4.2711743,
+            "duration": 4.233391,
             "location": "src/test/java/Features/Questionnaire.feature:10"
           }
         ]
@@ -599,12 +599,12 @@
       {
         "name": "user enter  Style Requirement on questionnaire form",
         "aggregatedDurations": {
-          "average": 2.5151599,
-          "median": 2.5151599
+          "average": 2.5225313,
+          "median": 2.5225313
         },
         "durations": [
           {
-            "duration": 2.5151599,
+            "duration": 2.5225313,
             "location": "src/test/java/Features/Questionnaire.feature:9"
           }
         ]
@@ -617,12 +617,12 @@
       {
         "name": "user enter email on rs form",
         "aggregatedDurations": {
-          "average": 2.0926518,
-          "median": 2.0926518
+          "average": 2.0959143,
+          "median": 2.0959143
         },
         "durations": [
           {
-            "duration": 2.0926518,
+            "duration": 2.0959143,
             "location": "src/test/java/Features/ResearchServices.feature:6"
           }
         ]
@@ -635,12 +635,12 @@
       {
         "name": "user enter name on blog form",
         "aggregatedDurations": {
-          "average": 2.1408617,
-          "median": 2.1408617
+          "average": 2.1591637,
+          "median": 2.1591637
         },
         "durations": [
           {
-            "duration": 2.1408617,
+            "duration": 2.1591637,
             "location": "src/test/java/Features/BlogComment.feature:4"
           }
         ]
@@ -653,12 +653,12 @@
       {
         "name": "user enter email on gs form",
         "aggregatedDurations": {
-          "average": 2.0902852,
-          "median": 2.0902852
+          "average": 2.1025257,
+          "median": 2.1025257
         },
         "durations": [
           {
-            "duration": 2.0902852,
+            "duration": 2.1025257,
             "location": "src/test/java/Features/ContactUsToGetStarted.feature:5"
           }
         ]

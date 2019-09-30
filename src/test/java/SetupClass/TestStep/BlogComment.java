@@ -49,6 +49,10 @@ public class BlogComment extends Setup {
 								"Page URL is:-> https://www.slideteam.net/blog/using-these-smart-goals-can-increase-your-impact-as-a-marketer/"+"\n"+ ""+""+
 								"Current Time is:->"+message_write_time);		
 		Thread.sleep(1000);
+		
+		Thread.sleep(1000);
+		driver.findElement(By.id("captcha_blog_captcha_form")).sendKeys("12345");
+		Thread.sleep(1000);
 	}
 
 	@Then("^user click on Submit button on blog form$")
