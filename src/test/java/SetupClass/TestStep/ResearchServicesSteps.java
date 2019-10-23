@@ -61,7 +61,7 @@ public class ResearchServicesSteps extends Setup {
 	@Then("^user enter captcha on rs form$")
 	public void user_enter_captcha_on_rs_form() throws Throwable {
 		Thread.sleep(1000);
-		driver.findElement(By.id("captcha_business_research_services_captcha")).sendKeys("12345");
+		driver.findElement(By.id("captcha_business_research_services_captcha")).sendKeys("Aj7W2mtf9namwf55");
 		Thread.sleep(1000);
 	}
 
