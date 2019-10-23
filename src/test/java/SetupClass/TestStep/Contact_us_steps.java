@@ -68,7 +68,7 @@ public class Contact_us_steps extends Setup {
 Thread.sleep(3000);
 		
 		
-		driver.findElement(By.xpath("//input[@id='captcha_contact_us']")).sendKeys("12345");
+		driver.findElement(By.xpath("//input[@id='captcha_contact_us']")).sendKeys("Aj7W2mtf9namwf55");
 	    Thread.sleep(1000);
 	}
 	
